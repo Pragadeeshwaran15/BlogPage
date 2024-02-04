@@ -1,7 +1,7 @@
 import React from 'react'
 import AppRoutes from './utils/AppRoutes'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-export const API_URL="https://659a4014652b843dea5360a2.mockapi.io/blogs"
+export const API_URL="https://659908faa20d3dc41cef2d1c.mockapi.io/blogs"
 function App() {
   let router=createBrowserRouter(AppRoutes)
   return <>
